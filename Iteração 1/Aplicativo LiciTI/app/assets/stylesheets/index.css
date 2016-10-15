@@ -1,0 +1,47 @@
+body {
+    background-image: url("doido.jpg");
+	background-size: 100% ;}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+	color: #046380;
+    text-align: center;
+}
+#logo {
+    color: #002F2F;
+    text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 250%;
+}
+#back_borda {
+    background-color: #FCFFF5;
+    text-align: center;
+    padding: center;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 4px;
+    width: 300px;
+    padding: 25px;
+}
+
+.button {
+    background-color: #white;
+    border: 2px solid #046380;
+    color: #046380;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 4px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #046380;
+    color: white;
+}
+
