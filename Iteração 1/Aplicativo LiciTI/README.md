@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Primeira Etapa do Desenvolvimento
 
-Things you may want to cover:
+Um SaaS responsável por gerenciar empresas terceirizadas que possam ou não participar de licitações promovidas por órgãos do governo,verificando se estão impugnadas ou não, de acordo com base de dados provida pelo Tribunal de Contas da União. Nosso público alvo são as empresas e órgãos públicos que buscam a prestação de serviços e necessitam de agilidade na verificação das propostas oferecidas.
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
