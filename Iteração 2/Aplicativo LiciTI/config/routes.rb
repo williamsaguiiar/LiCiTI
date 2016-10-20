@@ -21,5 +21,7 @@ Rails.application.routes.draw do
   #rota para administradores
   get '/admin' => 'admin#home'
 
+  #sobre nós
+  get '/about' => 'pages#about'
 
 end
