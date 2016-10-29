@@ -9,4 +9,9 @@ class ApplicationController < ActionController::Base
 	def require_user 
 		redirect_to '/login' unless current_user 
 	end
+	
+	def require_admin 
+		redirect_to '/sem_permissao' unless current_user.admin?
+	end
+
 end

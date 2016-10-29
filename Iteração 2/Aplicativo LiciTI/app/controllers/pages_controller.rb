@@ -3,4 +3,6 @@ class PagesController < ApplicationController
 	end
 	def admin
 	end
+	def admin_erro
+	end
 end

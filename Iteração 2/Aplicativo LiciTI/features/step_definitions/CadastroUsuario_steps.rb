@@ -1,5 +1,5 @@
-Given(/^I am a user and I am at the home page$/) do
-  visit "/"
+Given(/^I am a user and I am at the login page$/) do
+  visit "/login"
 end
 
 When(/^I click on "([^"]*)"$/) do |arg1|
