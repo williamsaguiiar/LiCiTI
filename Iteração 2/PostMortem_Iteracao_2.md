@@ -19,7 +19,6 @@ Início da Iteração | Término da iteração
 * Cadastro de usuário
 * Acesso do usuário
 * Acesso diferenciado do Administrador (Em parte) 
-* Implementar acesso aos desenvolvedores 
 * Testes BDD para todas as histórias de usuário
 
 ### O que não foi feito
