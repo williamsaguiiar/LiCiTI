@@ -1,0 +1,23 @@
+<html>
+	<title>LiciTI</title>
+	<head>
+	<link rel="stylesheet" href="home.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Oswald" rel="stylesheet">
+	</head>
+	<body>
+		
+		
+		<p><div class="btn-submit" value="submit">
+		<h1>Página em contrução</h1>
+			</div></p>
+
+		<% if current_user && current_user.admin? %> 
+  		<p class="button"> 
+    		<%= link_to "Espaço do administrador", "/admin" %> 
+  		</p> 
+		<% end %>
+		
+		
+	
+	</body>
+</html>

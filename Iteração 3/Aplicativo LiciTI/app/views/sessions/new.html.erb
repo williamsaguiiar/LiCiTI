@@ -1,0 +1,25 @@
+<html>
+	<title>LiciTI</title>
+	<head>
+	<link rel="stylesheet" href="home.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Oswald" rel="stylesheet">
+	</head>
+	<body>
+		<div id=back_borda>
+		<p id="logo">LiciTI</p>
+		<%= form_for(:session, url: login_path) do |f| %>
+		<p>Login</p>
+		<%= f.email_field :email, :placeholder => "Email" %>
+		<p>Password</p>
+  		<%= f.password_field :password, :placeholder => "Password" %> 
+  		<%= f.submit "Entrar", class: "button" %>
+		<% end %>
+		
+		<p><div class="button" value="submit">
+		<%= link_to 'Signup', "/signup" %>
+			</div></p>
+		</div>
+		
+	</body>
+</html>
+

@@ -1,0 +1,22 @@
+<html>
+	<title>Cadastramento de Novo Usuário</title>
+	<head>
+		<link rel="stylesheet" href="home.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Oswald" rel="stylesheet">
+	</head>
+	<body>
+		<div id=back_borda>
+		<p id="logo">Cadastro</p>
+
+		<%= form_for(@user) do |f| %>
+	      <%= f.text_field :firstname, :placeholder => "Nome" %>
+	      <%= f.text_field :last_name, :placeholder => "Sobrenome" %>
+	      <%= f.text_field :cpf, :placeholder => "CPF: Formato xxx.xxx.xxx-xx" %>
+	      <%= f.email_field :email, :placeholder => "Email: usuario@instituição.gov.br" %>
+	      <%= f.password_field :password, :placeholder => "Senha" %>
+	      <%= f.submit "Criar Usuário", class: "btn-submit" %>
+	    <% end %>
+	    </div>
+	</body>
+
+</html>
