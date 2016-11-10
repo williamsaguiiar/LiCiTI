@@ -14,14 +14,20 @@
     <div class="header">
       <div class="container">
         <div class="nav pull-right">
+              <ul> 
+              <a class = liciti href="http://pt-br.tinypic.com?ref=5x304g" target="_blank"><img src="http://i63.tinypic.com/5x304g.png" border="0" alt="Image and video hosting by TinyPic"></a>
               <% if current_user %> 
-                <ul> 
+                
                   <li><%= current_user.email %></li> 
                   <div class="button">
                     <li><%= link_to "Log out", logout_path, method: "delete" %></li> 
                   </div>
-                </ul> 
+                
               <% end %>
+              <div class="button" value="submit">
+                <%= link_to 'Sobre', "/about" %>
+                </div>
+              </ul> 
       </div>
     </div>
   </div>
