@@ -1,0 +1,21 @@
+
+<p>
+<div class="descricao">
+	<div class="btn-submit">
+		<%= @user.firstname %> <%= @user.last_name %> 
+	</div>
+	<ul>
+	<h4> Para mudança de papel: </h4>
+		<li>Para administrador preencha com "admin"</li>
+		<li>Para usuário comum preencha com "Null"</li>
+	</ul>
+	<%= form_for @user do |f| %>
+		<%= f.text_field :role %>
+		<%= f.submit "Alterar Papel" %>
+	<% end %>
+</div>
+</p>
+
+<p><div class="button" value="submit">
+	<%= link_to 'Voltar', "/admin/usuarios" %>
+</div></p>

@@ -10,6 +10,9 @@
 	<% if t.role == 'admin' %>
 		<div class="descricao_admin" value="submit">É Administrador</div>
 	<% end %>
+	<div class="button" value="submit">
+		<%= link_to "Alterar Papel", edit_admin_path(t) %> 
+	</div>
 </p>
 <% end %>
 </div>

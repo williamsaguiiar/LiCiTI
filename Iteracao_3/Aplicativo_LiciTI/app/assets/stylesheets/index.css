@@ -45,6 +45,11 @@ p {
   background-color: #FFFFE0;
 }
 
+.descricao a {
+  color: #046380; 
+  text-decoration: none; 
+}
+
 .descricao_admin{
   padding: 10px 15px;
   display: inline-block;

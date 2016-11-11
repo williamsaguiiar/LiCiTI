@@ -21,6 +21,8 @@ Rails.application.routes.draw do
   #rota para administradores
   get '/admin' => 'admin#home'
   get '/admin/usuarios' => 'admin#index'
+  get '/admin/usuarios/:id' => 'admin#edit', as: :edit_admin
+
   #sobre nós
   get '/about' => 'pages#about'
 

@@ -14,12 +14,19 @@ class UsersController < ApplicationController
 		end 
 	end
 
+	def update 
+  		@user = User.find(params[:id]) 
+		if @user.update_attributes(user_params) 
+    		redirect_to url_for(:controller => :admin, :action => :index)
 
+    	end
+   
+	end
 
 	private
 
 	def user_params
-    	params.require(:user).permit(:firstname, :last_name, :email, :cpf, :password)
+    	params.require(:user).permit(:firstname, :last_name, :email, :cpf, :password, :role)
  	end	
 
 end 
