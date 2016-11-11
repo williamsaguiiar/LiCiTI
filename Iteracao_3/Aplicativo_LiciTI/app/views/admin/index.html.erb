@@ -1,0 +1,21 @@
+
+<body>
+<div class=quadro>
+<p>
+<% @users.each do |t| %>
+<div class="descricao">Nome:</div>  <%= t.firstname %>
+	<%= t.last_name %>
+	<div class="descricao" value="submit">Email:</div>  <%= t.email %>
+	<div class="descricao" value="submit">CPF:</div> <%= t.cpf %>
+	<% if t.role == 'admin' %>
+		<div class="descricao_admin" value="submit">É Administrador</div>
+	<% end %>
+</p>
+<% end %>
+</div>
+
+<p><div class="button" value="submit">
+	<%= link_to 'Voltar', "/admin" %>
+</div></p>
+
+</body>
